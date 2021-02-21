@@ -22,15 +22,30 @@ nav a {
     padding-right: 15px;
 }
 
-header { 
+header {
     display: flex;
-    flex-direction:row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+header h1 { 
+    max-width: 30%;
     align-items: center;
+    text-align: center;
     background-color:grey;
 }
 
+.hero-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: darkblue;
+}
+
+.hero-banner > h2 {
+    background-color: whitesmoke;
+    text-align: center;
+}
 
 main {
     display: flex;
@@ -44,22 +59,33 @@ main {
     display: flex;
     flex-direction: column;
     max-width: 30%;
-    max-height: 800px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding: 2px;
     background-color:red;
     text-emphasis: wrap;
     margin-top: 20px;
 }
 
+.sidebar-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+    margin-bottom: 5px;
+}
+
 .profile-image {
-    height: 180px;
-    width: 180px;
+    width: 95%;
     border-radius: 50%;
     margin-right: auto;
     margin-left: auto;
     display: flex;
-    padding: 5px
+    padding: 5px;
 }
 
 .main-body {
@@ -96,7 +122,6 @@ main {
     border-color: black;
     padding: 5px;
     margin: 5px;
-    
 }
 
 .flex-item:first-child {
@@ -108,8 +133,7 @@ main {
 footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    flex-flow: center;
     background-color: green;
 }
