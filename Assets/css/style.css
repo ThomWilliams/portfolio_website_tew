@@ -49,6 +49,7 @@ main {
     margin-right: auto;
     background-color:red;
     text-emphasis: wrap;
+    margin-top: 20px;
 }
 
 .profile-image {
@@ -65,9 +66,7 @@ main {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-    margin-left: 20px;
     min-width: 70%;
-    background-color: pink;
 }
 
 .main-section {
@@ -78,6 +77,8 @@ main {
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
+    background-color: pink;
+    border-radius: 5%;
 }
 .flex-container {
     display: flex;
@@ -86,16 +87,22 @@ main {
 }
 
 .flex-item {
-    min-height: 150px;
-    max-height: 150px;
+    min-height: 100px;
+    min-width: 50px;
     background-color: grey;
     display: flex;
     align-items: flex-end;
     border-style: solid;
     border-color: black;
-    padding: 5%;
-    margin: 5%;
+    padding: 5px;
+    margin: 5px;
     
+}
+
+.flex-item:first-child {
+    min-width: 200px;
+    min-height: 150px;
+    flex-basis: 100%;
 }
 
 footer {
