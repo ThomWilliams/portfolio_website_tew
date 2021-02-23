@@ -130,6 +130,33 @@ main {
     flex-basis: 100%;
 }
 
+
+.application-1-pic {
+    background-image: url(../images/application-1-pic.jpeg);
+    background-size: cover;
+}
+
+.application-2-pic {
+    background-image: url(../images/application-2-pic.jpeg);
+    background-size: cover;
+}
+
+.application-3-pic {
+    background-image: url(../images/application-3-pic.jpeg);
+    background-size: cover;
+}
+
+.application-4-pic {
+    background-image: url(../images/application-4-pic.jpeg);
+    background-size: cover;
+}
+
+.application-5-pic {
+    background-image: url(../images/application-5-pic.jpeg);
+    background-size: cover;
+}
+
+
 footer {
     display: flex;
     flex-direction: row;
