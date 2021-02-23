@@ -46,6 +46,12 @@ nav {
 nav a {
     color: var(--tertiary);
     padding-right: 15px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: var(--dark);
 }
 
 header {
@@ -55,14 +61,16 @@ header {
     background-color: var(--tertiary);
 }
 header h1 { 
-    max-width: 30%;
+    
     align-items: center;
     text-align: center;
-    background-color: var(--quarternary);
+    background-color: var(--secondary);
+    color: var(--tertiary);
     border-radius: 50%;
     border-style: ridge;
-    Padding: 10px;
-    margin: 5px;
+    Padding: 15px;
+    margin: 10px;
+    font-size: 3rem;
 }
 
 .hero-banner {
@@ -74,6 +82,8 @@ header h1 {
 
 .hero-banner > h2 {
     text-align: center;
+    font-size: 1.3rem;
+    font-style: oblique;
 }
 
 main {
@@ -113,16 +123,28 @@ main {
     background-color: var(--tertiary);
     margin-bottom: 5px;
     margin-top: 5px;
-    overflow-wrap: break-word;
+    font-size: 0.75rem;
+    padding: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.contact-sidebar > h2 {
+    font-size: 0.9rem;
+}
+
+.sidebar-item ul {
+    list-style-position: inside;
+    padding-left: 5px;
 }
 
 .profile-image {
-    width: 95%;
+    max-width: 150px;
     border-radius: 50%;
     margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    padding: 5px;
+    display: inline-block;
 }
 
 .main-body {
@@ -143,6 +165,16 @@ main {
     background-color: var(--tertiary);
     border-radius: 5%;
 }
+
+.main-section > h2 {
+    font-size: 1.5rem;
+}
+
+.main-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -156,12 +188,22 @@ main {
     border-style: solid;
     border-color: var(--dark);
     margin: 5px;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1rem)
 }
 
 .flex-item:first-child {
-    min-width: 150px;
-    min-height: 150px;
-    flex-basis: 100%;
+    max-height: 250px;
+    min-height: 250px;
+    flex-basis: calc(100% - 1rem);
+}
+
+.flex-item > h3 {
+    font-size: 1rem;
+    background-color: var(--primary);
+    color: var(--tertiary);
+    padding: 3px;
 }
 
 .application-1-pic {
@@ -189,6 +231,9 @@ main {
     background-size: cover;
 }
 
+.flex-item:hover {
+    border-color: var(--quinary);
+}
 
 footer {
     display: flex;
