@@ -150,8 +150,8 @@ main {
     display: inline-block;
 }
 
-.profile-image:hover {
-    transform: scale(1.5);
+.profile-image:active {
+    transform: scale(2);
 }
 
 .main-body {
