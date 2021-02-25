@@ -234,6 +234,7 @@ main {
 
 .flex-item:hover {
     border-color: var(--quinary);
+    transform: scale(1.06);
 }
 
 footer {
