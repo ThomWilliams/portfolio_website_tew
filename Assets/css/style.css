@@ -17,7 +17,7 @@
 body { 
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: var(--primary);
     background-color: var(--light);
     line-height: 1.5;
@@ -48,6 +48,7 @@ nav a {
     padding-right: 15px;
     text-decoration: none;
     font-size: 1rem;
+    word-spacing: -5px;
 }
 
 nav a:hover {
@@ -71,6 +72,7 @@ header h1 {
     Padding: 15px;
     margin: 10px;
     font-size: 3rem;
+    font-family: monospace;
 }
 
 .hero-banner {
@@ -116,14 +118,14 @@ main {
 
 .sidebar-item {
     display: flex;
-    min-width: 90%;
+    min-width: 100%;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--tertiary);
     margin-bottom: 5px;
     margin-top: 5px;
-    font-size: 0.75rem;
+    font-size: 1rem;
     padding: 5px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -146,6 +148,10 @@ main {
     border-radius: 50%;
     margin-right: auto;
     display: inline-block;
+}
+
+.profile-image:hover {
+    transform: scale(1.5);
 }
 
 .main-body {
@@ -174,6 +180,7 @@ main {
 .main-section p {
     font-size: 1rem;
     margin-bottom: 20px;
+    font-family: courier;
 }
 
 .flex-container {
@@ -234,7 +241,7 @@ main {
 
 .flex-item:hover {
     border-color: var(--quinary);
-    transform: scale(1.06);
+    transform: scale(1.02);
 }
 
 footer {
@@ -245,6 +252,9 @@ footer {
     background-color: var(--hexary);
     margin-top: 5%;
 }
+
+
+/* Media Query for Phones and Tablets */
 
 @media screen and (max-width: 768px) { 
  
@@ -260,4 +270,9 @@ footer {
         padding: 5px;
     }
 
+    .profile-image:hover {
+        transform: none;
+    }
 }
+
+
