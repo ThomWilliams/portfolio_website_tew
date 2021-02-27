@@ -7,9 +7,9 @@
 --primary: #1d4375;
 --secondary: #4a4d50;
 --tertiary: #fefae0;
---quarternary: #fab521;
+--quaternary: rgb(230, 230, 240);
 --quinary: #2566bc;
---dark: #351a02;
+--dark: #160b01;
 --light: #e7dfd8;
 }
 
@@ -19,7 +19,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: var(--secondary);
     line-height: 1.5;
-    background-color: rgb(230, 230, 240);
+    background-color: var(--quaternary);
 }
 
 h1, 
@@ -39,7 +39,7 @@ p {
 nav {
     display: flex;
     flex-direction: row-reverse;
-    background-color: black;
+    background-color: var(--dark);
 }
 
 nav a {
@@ -58,7 +58,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: grey;
+    
 }
 
 header {
@@ -71,7 +71,7 @@ header h1 {
     align-items: center;
     text-align: center;
     background-image: linear-gradient(to bottom right, var(--light),gray);
-    color: black;
+    color: var(--dark);
     border-radius: 50%;
     border-style: ridge;
     Padding: 15px;
@@ -84,14 +84,16 @@ header h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: black;
+    background-color:var(--dark);
+    margin-top: var(--light);
+    margin-top: 1px;
 }
 
 .hero-banner > h2 {
     text-align: center;
     font-size: 1.3rem;
     font-style: oblique;
-    color: white;
+    color: var(--light);
 }
 
 main {
@@ -110,14 +112,15 @@ main {
     margin-right: auto;
     margin-bottom: auto;
     margin-top: auto;
-    padding: 5px;
+    padding: 1px;
     margin-top: 20px;
     border-style:outset;
-    border-width: thin;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-top-right-radius: 25px;
+    border-width: 2px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: var(--primary);
 }
 
 
@@ -128,10 +131,10 @@ main {
     margin-left: auto;
     margin-right: auto;
     background-color: var(--tertiary);
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 1px;
+    margin-top: 1px;
     font-size: 1rem;
-    padding: 5px;
+    padding: 15px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -168,7 +171,7 @@ main {
 }
 
 .main-section {
-    margin: 25px;
+    margin: 15px;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -257,7 +260,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: var(--dark);
     color: var(--tertiary);
     margin-top: 5%;
 }
