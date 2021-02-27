@@ -279,6 +279,12 @@ footer {
         max-width: 75%;
     }
 
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        text-justify: space-evenly;
+    }
+
     main {
         display: flex;
         flex-direction: column-reverse;
