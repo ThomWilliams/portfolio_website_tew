@@ -5,8 +5,8 @@
 
 :root {
 --primary: #1d4375;
---secondary: #4a4d50;
---tertiary: #fefae0;
+--secondary: #36383b;
+--tertiary: #f1eed7;
 --quaternary: rgb(230, 230, 240);
 --quinary: #2566bc;
 --dark: #160b01;
@@ -19,7 +19,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: var(--secondary);
     line-height: 1.5;
-    background-color: var(--quaternary);
+    background-image: linear-gradient(to bottom, var(--light), var(--primary));
 }
 
 h1, 
@@ -67,11 +67,10 @@ header {
 }
 
 header h1 { 
-    
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(to bottom right, var(--light),gray);
-    color: var(--dark);
+    background-color: var(--dark);
+    color: var(--light);
     border-radius: 50%;
     border-style: ridge;
     Padding: 15px;
@@ -91,8 +90,8 @@ header h1 {
 
 .hero-banner > h2 {
     text-align: center;
-    font-size: 1.3rem;
-    font-style: oblique;
+    font-size: 1.5rem;
+    font-style:unset;
     color: var(--light);
 }
 
@@ -120,7 +119,7 @@ main {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
-    background-color: var(--primary);
+    background-color: var(--light);
 }
 
 
@@ -131,14 +130,17 @@ main {
     margin-left: auto;
     margin-right: auto;
     background-color: var(--tertiary);
-    margin-bottom: 1px;
+    margin-bottom: 5px;
     margin-top: 1px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 15px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
+    font-family: courier;
+    border-style: outset;
+    border-width: thin;
 }
 
 .contact-sidebar h2 {
@@ -190,8 +192,10 @@ main {
 
 .main-section p {
     font-size: 1rem;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-family: courier;
+    width: 100%;
+    padding: 5px;
 }
 
 .flex-container {
@@ -205,11 +209,12 @@ main {
     align-items: flex-end;
     flex-wrap: wrap;
     border-style: solid;
-    border-color: var(--dark);
+    border-color: var(--secondary);
     margin: 5px;
     min-height: 150px;
     max-height: 150px;
-    flex-basis: calc(50% - 1rem)
+    flex-basis: calc(50% - 1rem);
+    text-decoration: none;
 }
 
 .flex-item:first-child {
@@ -221,7 +226,7 @@ main {
 .flex-item > h3 {
     font-size: 1rem;
     background-color: var(--primary);
-    color: var(--tertiary);
+    color: var(--light);
     padding: 3px;
 }
 
@@ -271,7 +276,7 @@ footer {
 @media screen and (max-width: 768px) { 
  
     .contact-sidebar {
-        min-width: 100%;
+        max-width: 75%;
     }
 
     main {
