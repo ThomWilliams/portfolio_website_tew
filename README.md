@@ -8,7 +8,7 @@ It contains contact information, a profile image, a brief biography and a showca
 
 ## Installing / Getting started
 
-Hosted by Github Pages. The application loads in the web browser. The GitHub repo comprises a HTML index file, CSS style file, CSS, reset file, associated images and this README.
+Hosted by Github Pages. The application loads in the web browser. All files available to clone / download from Thom Willims' GitHub repo. 
 
 ### Initial Configuration
 
@@ -16,109 +16,112 @@ N/A Application should load in any universal browser.
 
 ## Developing
 
-Here's a brief intro about what a developer must do in order to start developing
-the project further:
+To clone this template, or develop further from this repo, please head to GitHub and follow these steps:
 
 ```shell
-git clone https://github.com/your/awesome-project.git
-cd awesome-project/
-packagemanager install
+git clone https://github.com/ThomWilliams/portfolio_website_tew
+cd portfolio_website_tew
+code .
 ```
 
-And state what happens step-by-step.
+The repository comprises a HTML index file, CSS style file, CSS, reset file, associated images, GIF demonstration video and this README.
 
 ### Building
 
-If your project needs some additional steps for the developer to build the
-project after some code changes, state them here:
+No further additional steps should be required for the developer to view the files / build on the project.
 
-```shell
-./configure
-make
-make install
-```
-
-Here again you should state what actually happens when the code above gets
-executed.
+Once opened in any browser such as Chrome, the styled html page for Thom Williams Web Development portfolio should be displayed. 
 
 ### Deploying / Publishing
 
-In case there's some step you have to take that publishes this project to a
-server, this is the right time to state it.
+All developments by Thom Williams to the main branch. Deployed on Git Hub pages to the following address: 
 
-```shell
-packagemanager deploy awesome-project -s server.com -u username -p password
-```
+Github Pages - https://thomwilliams.github.io/portfolio_website_tew/
 
-And again you'd need to tell what the previous code actually does.
 
 ## Features
 
-What's all the bells and whistles this project can perform?
-* What's the main functionality
-* You can also do another thing
-* If you get really randy, you can even do this
+This website is intended as a professional portfolio to display the web development projects of Thom Williams. It features a semantically structure HTML document and is styled with a CSS style sheet. A CSS reset is also provided. 
 
-## Configuration
+Key features include:
 
-Here you should write what are all of the configurations a user can enter when
-using the project.
-
-#### Argument 1
-Type: `String`  
-Default: `'default value'`
-
-State what an argument does and how you can use it. If needed, you can provide
-an example below.
-
-Example:
-```bash
-awesome-project "Some other value"  # Prints "You're nailing this readme!"
-```
-
-#### Argument 2
-Type: `Number|Boolean`  
-Default: 100
-
-Copy-paste as many of these as you need.
-
-## Contributing
-
-When you publish something open source, one of the greatest motivations is that
-anyone can just jump in and start contributing to your project.
-
-These paragraphs are meant to welcome those kind souls to feel that they are
-needed. You should state something like:
-
-"If you'd like to contribute, please fork the repository and use a feature
-branch. Pull requests are warmly welcome."
-
-If there's anything else the developer needs to know (e.g. the code style
-guide), you should link it here. If there's a lot of things to take into
-consideration, it is common to separate this section to its own file called
-`CONTRIBUTING.md` (or similar). If so, you should say that it exists here.
+* There is a navigation bar with internal links to its main sections situated at the top of the page. Pseudocode is used to highlight links in blue when hovered over. 
+* There is a custom designed logo and hero banner images.
+* Thom's website portfolio is illustated in the "Examples of My Work", with the most recent project illustrated with a larger flex box at the top. Pseudocode functions enlarge and highlights each projects when hovered over. Thom's first project is currently linked, with placeholder images holding the positions for future projects.
+* A "Contact-Sidebar" aside offers useful contact information and a profile image of Thom Willimas.
+* The profile image enlarges when clicked.
+* The About Me column offers a short introduction to Thom Willimas.
+* CSS Variables have been used to defined a consistent colour scheme throughout. The colour scheme chosen passes accessibility contrast standards.
+* Media queries have been used to provide a responsive layout suited for desktop and mobile use. The mobile version renders the site into a single column layout.
+* All images are original, taken by Thom Williams.
 
 ## Links
 
-Even though this information can be found inside the project on machine-readable
-format like in a .json file, it's good to include a summary of most useful
-links to humans using your project. You can include links like:
-
-- Project homepage: https://your.github.com/awesome-project/
-- Repository: https://github.com/your/awesome-project/
-- Issue tracker: https://github.com/your/awesome-project/issues
-  - In case of sensitive bugs like security vulnerabilities, please contact
-    my@email.com directly instead of using issue tracker. We value your effort
-    to improve the security and privacy of this project!
-- Related projects:
-  - Your other project: https://github.com/your/other-project/
-  - Someone else's project: https://github.com/someones/awesome-project/
+- Project homepage: https://thomwilliams.github.io/portfolio_website_tew/
+- Repository: https://github.com/ThomWilliams/portfolio_website_tew
+- Issue tracker: https://github.com/ThomWilliams/portfolio_website_tew/issues
+  - In case of sensitive bugs like security vulnerabilities, please contact thomwilliams1990@gmail.com. We value your effort to improve the security and privacy of this project.
+- Related projects: https://github.com/ThomWilliams
 
 
-## Licensing
+## Accessibility
 
-One really important part: Give your project a proper license. Here you should
-state what the license is and how to find the text version of the license.
-Something like:
+Steps to meet accessibility standards include:
 
-"The code in this project is licensed under MIT license."
+* Semantic HTML structure.
+* Suitable contrasting colour scheme.
+* All images and and placeholder images have been given appropriate Title tags.
+
+
+# Screenshot
+
+A screenshot of both the desktop and mobile versions have been provided Available in assets Folder: 
+
+Mobile version: "./Screenshots_+_GIF/mobile_devices_responsive_layout_screenshot.png"
+
+Desktop version: "./Screenshots_+_GIF/Desktop_devices_screenshot.png"
+
+
+
+# GIF
+
+A gif visual demonstration is also provided as a guide:
+
+GIF GUIDE: "./Screenshots_+_GIF/Gif_Demonstration.gif"
+
+
+======
+## Credits
+
+These are the web articles referenced during this Code Refactor accessibility excercise. 
+
+https://www.w3schools.com/
+https://wave.webaim.org/
+https://css-tricks.com/
+https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
+https://github.com/jehna/readme-best-practices
+https://www.freecodecamp.org/news/css-responsive-image-tutorial/
+
+## License
+
+MIT License
+
+Copyright (c) [2021] [Thomas Edward Williams]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
