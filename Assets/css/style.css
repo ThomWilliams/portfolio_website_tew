@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/*CSS variables define colour scheme */
 
 :root {
 --primary: #1d4375;
@@ -36,6 +37,7 @@ p {
     margin: 0;
 }
 
+/* Navigation Bar stylings */
 nav {
     display: flex;
     flex-direction: row-reverse;
@@ -54,6 +56,7 @@ nav a:hover {
     color: var(--quinary);
 }
 
+/*Header stylings */
 header {
     display: flex;
     flex-direction: row;
@@ -61,6 +64,7 @@ header {
     
 }
 
+/* header background image */
 header {
     background-image: url(../images/laptop-hero-image.jpeg);
     background-size: 50%;
@@ -79,6 +83,7 @@ header h1 {
     font-family: monospace;
 }
 
+/* "Web development portfolio" hero banner */
 .hero-banner {
     display: flex;
     flex-direction: row;
@@ -95,6 +100,7 @@ header h1 {
     color: var(--light);
 }
 
+/* Container for main body of website including contact sidedebar aside, About Me and Examples sections */
 main {
     display: flex;
     max-width: 90%;
@@ -102,6 +108,8 @@ main {
     margin-right: auto;
 }
 
+
+/* Determines Contact Sidebar aside */
 
 .contact-sidebar {
     display: flex;
@@ -122,6 +130,7 @@ main {
     background-color: var(--light);
 }
 
+/* determines individual items in the aside*/
 
 .sidebar-item {
     display: flex;
@@ -153,6 +162,8 @@ main {
     padding-left: 5px;
 }
 
+/*profile image of Thom Williams*/
+
 .profile-image {
     width: 100%;
     object-fit: cover;
@@ -161,9 +172,13 @@ main {
     display: inline-block;
 }
 
+/* Grows profile image on click */
+
 .profile-image:active {
     transform: scale(2);
 }
+
+/* Container for About Me and Examples */
 
 .main-body {
     display: flex;
@@ -171,6 +186,8 @@ main {
     margin-left: 20px;
     min-width: 70%;
 }
+
+/* Style About Me and Examples */
 
 .main-section {
     margin: 15px;
@@ -198,12 +215,15 @@ main {
     padding: 5px;
 }
 
+
+/*Flex container container for Portfolio Applications */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-items: space-evenly;
 }
 
+/* Style for each portfoilo example */
 .flex-item {
     display: flex;
     align-items: flex-end;
@@ -217,6 +237,7 @@ main {
     text-decoration: none;
 }
 
+/* Larger first example */
 .flex-item:first-child {
     max-height: 250px;
     min-height: 250px;
@@ -230,6 +251,7 @@ main {
     padding: 3px;
 }
 
+/* Application Example images */
 .application-1-pic {
     background-image: url(../images/Assignment_1_Code_Refactor.png);
     background-size: cover;
@@ -255,10 +277,14 @@ main {
     background-size: cover;
 }
 
+/* Expands and highlights each portfolio example */
+
 .flex-item:hover {
     border-color: var(--quinary);
     transform: scale(1.02);
 }
+
+/* Footer styling */
 
 footer {
     display: flex;
