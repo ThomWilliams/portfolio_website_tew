@@ -319,6 +319,10 @@ footer {
         padding: 5px;
     }
 
+    .main-body {
+        margin-left: 0;
+    }
+
     .profile-image:hover {
         transform: none;
     }
