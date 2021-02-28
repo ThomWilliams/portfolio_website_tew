@@ -36,7 +36,7 @@ Once opened in any browser such as Chrome, the styled html page for Thom William
 
 All developments by Thom Williams to the main branch. Deployed on Git Hub pages to the following address: 
 
-Github Pages - https://thomwilliams.github.io/portfolio_website_tew/
+[Github Pages](https://thomwilliams.github.io/portfolio_website_tew/)
 
 
 ## Features
@@ -57,11 +57,11 @@ Key features include:
 
 ## Links
 
-- Project homepage: https://thomwilliams.github.io/portfolio_website_tew/
-- Repository: https://github.com/ThomWilliams/portfolio_website_tew
-- Issue tracker: https://github.com/ThomWilliams/portfolio_website_tew/issues
+- Project homepage: [GitHub](https://thomwilliams.github.io/portfolio_website_tew/)
+- Repository: [GitHub](https://github.com/ThomWilliams/portfolio_website_tew)
+- Issue tracker: [GitHub](https://github.com/ThomWilliams/portfolio_website_tew/issues)
   - In case of sensitive bugs like security vulnerabilities, please contact thomwilliams1990@gmail.com. We value your effort to improve the security and privacy of this project.
-- Related projects: https://github.com/ThomWilliams
+- Related projects: [GitHub](https://github.com/ThomWilliams)
 
 
 ## Accessibility
@@ -77,9 +77,9 @@ Steps to meet accessibility standards include:
 
 A screenshot of both the desktop and mobile versions have been provided Available in assets Folder: 
 
-Mobile version: "./Screenshots_+_GIF/mobile_devices_responsive_layout_screenshot.png"
+Mobile version: ![Mobile Screenshot](Assets/Screenshots_GIF/mobile_devices_responsive_layout_screenshot.png)
 
-Desktop version: "./Screenshots_+_GIF/Desktop_devices_screenshot.png"
+Desktop version: ![Desktop Screenshot](Assets/Screenshots_GIF/Desktop_devices_screenshot.png)
 
 
 
@@ -87,7 +87,7 @@ Desktop version: "./Screenshots_+_GIF/Desktop_devices_screenshot.png"
 
 A gif visual demonstration is also provided as a guide:
 
-GIF GUIDE: "./Screenshots_+_GIF/Gif_Demonstration.gif"
+GIF GUIDE: ![gif demo](Assets/Screenshots_GIF/Gif_Demonstration.gif)
 
 
 ======
@@ -95,12 +95,12 @@ GIF GUIDE: "./Screenshots_+_GIF/Gif_Demonstration.gif"
 
 These are the web articles referenced during this Code Refactor accessibility excercise. 
 
-https://www.w3schools.com/
-https://wave.webaim.org/
-https://css-tricks.com/
-https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
-https://github.com/jehna/readme-best-practices
-https://www.freecodecamp.org/news/css-responsive-image-tutorial/
+[w3 Schools](https://www.w3schools.com/)
+[wave](https://wave.webaim.org/)
+[css tricks](https://css-tricks.com/)
+[Mozilla Developer](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
+[GitHub Readme Guide](https://github.com/jehna/readme-best-practices)
+[Freecodecamp Responsive image guide](https://www.freecodecamp.org/news/css-responsive-image-tutorial/)
 
 ## License
 
