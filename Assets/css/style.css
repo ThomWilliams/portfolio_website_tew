@@ -109,9 +109,9 @@ main {
 }
 
 
-/* Determines Contact Sidebar aside */
+/* Determines Aside bar with contact details */
 
-.contact-sidebar {
+aside {
     display: flex;
     flex-direction: column;
     min-width: 25%;
@@ -152,7 +152,7 @@ main {
     border-width: thin;
 }
 
-.contact-sidebar h2 {
+aside h2 {
     font-size: 1.3rem;
     color: var(--primary);
 }
@@ -301,7 +301,7 @@ footer {
 
 @media screen and (max-width: 768px) { 
  
-    .contact-sidebar {
+    aside {
         max-width: 75%;
     }
 
